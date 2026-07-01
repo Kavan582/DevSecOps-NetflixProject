@@ -1,0 +1,4 @@
+Netflix Clone has been deployed!
+
+To access the application, run:
+  kubectl get svc {{ .Release.Name }}-netflix-app
